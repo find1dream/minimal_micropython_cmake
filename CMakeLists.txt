@@ -12,8 +12,8 @@ set(MICROPY_SOURCE_QSTR
     ${MICROPY_SOURCE_PY}
     ${CMAKE_CURRENT_LIST_DIR}/main.c
     ${CMAKE_CURRENT_LIST_DIR}/mphalport.c
-    ${MICROPY_DIR}/shared/libc/printf.c
     ${MICROPY_DIR}/shared/readline/readline.c
+    ${MICROPY_DIR}/shared/runtime/gchelper_generic.c
     ${MICROPY_DIR}/shared/runtime/pyexec.c
     ${MICROPY_DIR}/shared/runtime/stdout_helpers.c
 )
